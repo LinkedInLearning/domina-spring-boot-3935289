@@ -1,0 +1,10 @@
+<h2>Añadir verdura nueva</h2>
+<form [formGroup]="formularioNueva" (submit)="anyadirVerdura()">
+  <label for="nombre">Nombre</label>
+  <input id="nombre" type="text" formControlName="nombre"/>
+  <label for="precio">Precio</label>
+  <input id="precio" type="text" formControlName="precio"/>
+  <label for="troceable">Troceable</label>
+  <input id="troceable" type="text" formControlName="troceable"/>
+  <button type="submit">Crear Verdura</button>
+</form>
