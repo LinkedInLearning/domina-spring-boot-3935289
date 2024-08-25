@@ -63,24 +63,6 @@ public class Verdura {
 	public String toString() {
 		return String.format("Verdura [id=%s, nombre=%s, precio=%s, troceable=%s]", id, nombre, precio, troceable);
 	}
-
-//	@Override
-//	public int hashCode() {
-//		return Objects.hash(id, nombre, precio, troceable);
-//	}
-//
-//	@Override
-//	public boolean equals(Object obj) {
-//		if (this == obj)
-//			return true;
-//		if (obj == null)
-//			return false;
-//		if (getClass() != obj.getClass())
-//			return false;
-//		Verdura other = (Verdura) obj;
-//		return id == other.id && Objects.equals(nombre, other.nombre) && Objects.equals(precio, other.precio)
-//				&& troceable == other.troceable;
-//	}
 }
 
 // Pista de no usar récord: https://discourse.hibernate.org/t/hibernate-6-and-java-records-unable-so-persist/7761
